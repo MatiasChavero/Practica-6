@@ -3,22 +3,22 @@
 		<div class="container">
 			<form class="form-filter" method="GET">
 				<div class="form-filter-description">
-					<label for="firstname">NOMBRES</label>
-					<input type="text" name="first name" placeholder="nombres">
+					<label for="firstname">NOMBRE</label>
+					<input type="text" name="first name" required>
 				</div>
 				<div class="form-filter-description">
 					<label for="surname">APELLIDO</label>
-					<input type="text" name="first name" placeholder="apellido">
+					<input type="text" name="first name" required>
 				</div>
 				<div class="form-filter-description">
 					<label for="email">EMAIL</label>
-					<input type="text" name="mail" placeholder="ejemplo@ejemplo.com">
+					<input type="email" name="mail" placeholder="ejemplo@ejemplo.com" required>
 				</div>
 				<div class="form-filter-description-2">
 					<label for="message">MENSAJE</label>
 					<textarea id="message" name="user-message"></textarea>
 				</div>
-				<button>ENVIAR</button>
+				<button type="submit" id="button-first">ENVIAR</button>
 			</form>
 		</div>
 	</section>

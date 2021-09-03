@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 :root {
   --main-font: "Flama";
   --color-text: #222;
@@ -935,6 +936,14 @@ body {
 .contact-first {
   margin-top: 80px;
 }
+.contact-first .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact-first .container .form-filter {
+  width: 100%;
+}
 .contact-first .container .form-filter .form-filter-description {
   text-align: left;
 }
@@ -965,6 +974,17 @@ body {
   height: 300px;
   margin-bottom: 20px;
   background-color: #E1E1E1;
+}
+.contact-first .container .photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+.contact-first .container .photo .photo-1 {
+  width: 80%;
 }
 .contact-first .container button {
   width: 300px;

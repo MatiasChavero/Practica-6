@@ -25,5 +25,10 @@
 		</section>
         <script src="vendor/js/jquery-3.2.1.min.js"></script>
         <script src="js/app.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        	AOS.init();
+        </script>
     </body>
 </html>

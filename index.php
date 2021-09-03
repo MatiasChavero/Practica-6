@@ -2,10 +2,10 @@
 	<section class="first-page">
 		<div class="container">
 			<div class="first-page-1">
-				<div class="first-page-1-img">
+				<div data-aos="fade-right" data-aos-duration="2000" class="first-page-1-img">
 					<img src="fotos/foto1.jpeg" alt="img">
 				</div>
-				<div class="first-page-1-text">
+				<div data-aos="fade-left" data-aos-duration="2000" class="first-page-1-text">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 	 					elit, sed do eiusmod tempor incididunt ut labore
 					 	et dolore magna aliqua. Ut enim ad minim
@@ -21,7 +21,7 @@
 				</div>
 			</div>
 			<div class="first-page-2">
-				<div class="first-page-2-text">
+				<div data-aos="fade-right" data-aos-duration="2000" class="first-page-2-text">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing
  						elit, sed do eiusmod tempor incididunt ut labore
  						et dolore magna aliqua. Ut enim ad minim
@@ -35,7 +35,7 @@
  						amet, consectetur adipiscing elit, sed do eiusmod
  						tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
-				<div class="first-page-2-img">
+				<div data-aos="fade-left" data-aos-duration="2000" class="first-page-2-img">
 					<img src="fotos/foto2.jpeg" alt="img">
 				</div>
 			</div>	
@@ -45,25 +45,25 @@
 		<h2>NUESTROS CLIENTES</h2>
 		<div class="container">
 			<ul class="second-page-list">
-				<li class="second-page-list-1">
+				<li data-aos="fade-down" data-aos-duration="1500" class="second-page-list-1">
 					<img src="fotos/cliente1.jpg" alt="img">
 				</li>
-				<li class="second-page-list-2">
+				<li data-aos="zoom-out-down" data-aos-duration="2000" class="second-page-list-2">
 					<img src="fotos/cliente2.png" alt="img">
 				</li>
-				<li class="second-page-list-3">
+				<li data-aos="zoom-out-down" data-aos-duration="2000" class="second-page-list-3">
 					<img src="fotos/cliente3.png" alt="img">
 				</li>
-				<li class="second-page-list-4">
+				<li data-aos="fade-down" data-aos-duration="1500" class="second-page-list-4">
 					<img src="fotos/cliente4.png" alt="img">
 				</li>
-				<li class="second-page-list-5">
+				<li data-aos="fade-up" data-aos-duration="1500" class="second-page-list-5">
 					<img src="fotos/cliente5.png" alt="img">
 				</li>
-				<li class="second-page-list-6">
+				<li data-aos="zoom-out-up" data-aos-duration="2000" class="second-page-list-6">
 					<img src="fotos/cliente6.png" alt="img">
 				</li>
-				<li class="second-page-list-7">
+				<li data-aos="fade-up" data-aos-duration="1500" class="second-page-list-7">
 					<img src="fotos/cliente7.png" alt="img">
 				</li>
 			</ul>

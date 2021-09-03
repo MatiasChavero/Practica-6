@@ -662,7 +662,9 @@ body {
 .contact-first {
     margin-top: 80px;
     .container {
+        display: flex;
         .form-filter {
+            width: 100%;
             .form-filter-description {
                 text-align: left;
                 label {
@@ -693,6 +695,14 @@ body {
                     margin-bottom: 20px;
                     background-color: #E1E1E1;
                 } 
+            }
+        }
+        .photo {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            .photo-1 {
+                width: 80%;
             }
         }
         button {
